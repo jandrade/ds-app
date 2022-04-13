@@ -1,7 +1,10 @@
+import Card from "@jandrade/ds-card";
 function App() {
   return (
     <div className="App">
-      <h1>Hello ds-components</h1>
+      <Card>
+        <h1>Hello ds-components</h1>
+      </Card>
     </div>
   );
 }
